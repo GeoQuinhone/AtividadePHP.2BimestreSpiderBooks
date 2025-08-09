@@ -1,0 +1,44 @@
+body {
+  background-color: #ffffff; 
+}
+
+.navbar {
+  background-color: #d32f2f; 
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #bbdefb !important; 
+}
+
+footer {
+  background-color: #1976d2; 
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  flex: 0 0 48%; 
+}
+
+@media (max-width: 576px) {
+  .footer-col {
+    flex: 0 0 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
